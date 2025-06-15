@@ -8,7 +8,7 @@ import pickle as pkl
 import os
 import gc
 
-# Define the CNN model
+# Define the CNN model for AI detection pic
 def create_model():
     model = tf.keras.Sequential([
         layers.Conv2D(32, (3, 3), activation='relu', input_shape=(245, 255, 3)),
